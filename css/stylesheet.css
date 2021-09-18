@@ -1,15 +1,15 @@
 @import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
 @font-face {
   font-family: StencilStd;
-  src: url(font/StencilStd.otf);
+  src: url(../font/StencilStd.otf);
 }
 @font-face {
   font-family: ImpactFont;
-  src: url(font/Impact.ttf);
+  src: url(../font/Impact.ttf);
 }
 @font-face {
   font-family: Fixedsys;
-  src: url(font/Fixedsys.ttf);
+  src: url(../font/Fixedsys.ttf);
 }
 * {
   margin: 0px;
@@ -28,7 +28,7 @@
   height: 400px;
 }
 .section-2 {
-  background-image: url(img/sectiontwo.png);
+  background-image: url(../img/sectiontwo.png);
   background-repeat: no-repeat;
   height: 535px;
 }
@@ -167,7 +167,7 @@ ul.sskills li {
   font-family: Fixedsys;
   font-size: 1.4em;
   color: #fcd49d;
-  list-style-image: url(img/coin.png);
+  list-style-image: url(../img/coin.png);
 }
 p.technical-skills {
   position: absolute;
@@ -194,12 +194,12 @@ ul.tskills li {
   font-family: Fixedsys;
   font-size: 1.4em;
   color: #fcd49d;
-  list-style-image: url(img/coin.png);
+  list-style-image: url(../img/coin.png);
 }
 .section-4 {
   position: relative;
 
-  background-image: url(img/sectiontwo.png);
+  background-image: url(../img/sectiontwo.png);
   background-repeat: no-repeat;
   height: 535px;
 }
@@ -225,7 +225,7 @@ ul.joppurtunities-2 {
 }
 ul.joppurtunities-1 li,
 ul.joppurtunities-2 li {
-  list-style-image: url(img/star.png);
+  list-style-image: url(../img/star.png);
   font-family: ImpactFont;
   font-size: 2em;
   color: #fff;
