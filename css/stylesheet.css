@@ -24,12 +24,11 @@
   position: relative;
 }
 .section-1 {
-  background-color: #174759;
+  background-color: #450a52;
   height: 400px;
 }
 .section-2 {
   background-image: url(../img/sectiontwo.png);
-  background-repeat: no-repeat;
   height: 535px;
 }
 .section-3 {
@@ -37,29 +36,40 @@
   background-color: #ba6832;
   height: 750px;
 }
+.parallax {
+  background-image: url(../img/moon.png);
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 h1.header-text-1 {
+  position: absolute;
+  top: 80px;
+  left: 180px;
   font-family: "ImpactFont";
   text-transform: uppercase;
   font-size: 6em;
-  padding-left: 180px;
-  padding-top: 80px;
   color: #ba6832;
   letter-spacing: 2px;
 }
 h1.header-text-2 {
+  position: absolute;
+  top: 160px;
+  left: 180px;
   font-family: "ImpactFont";
   text-transform: uppercase;
   font-size: 8em;
-  padding-left: 180px;
-  margin-top: -40px;
   color: #ba6832;
   letter-spacing: 2px;
 }
 h3 {
+  position: absolute;
+  top: 300px;
+  right: 120px;
   font-family: "Segoe UI", sans-serif;
   text-align: right;
-  margin-top: -20px;
-  padding-right: 120px;
   color: white;
 }
 .pc {
@@ -92,11 +102,16 @@ h3 {
   top: 690px;
   left: 736px;
 }
+.wheel-2 {
+  position: absolute;
+  top: 690px;
+  right: 186px;
+}
 h1.created {
   position: absolute;
-  top: 785px;
+  top: 795px;
   left: 175px;
-  font-size: 4em;
+  font-size: 3.3em;
   color: #ef4523;
   letter-spacing: 1px;
   font-family: "StencilStd";
@@ -229,4 +244,12 @@ ul.joppurtunities-2 li {
   font-family: ImpactFont;
   font-size: 2em;
   color: #fff;
+}
+
+ul.joppurtunities-1 li:hover,
+ul.joppurtunities-2 li:hover {
+  border-radius: 5px;
+  background-color: rgb(15, 5, 15);
+  padding: 5px;
+  cursor: pointer;
 }
