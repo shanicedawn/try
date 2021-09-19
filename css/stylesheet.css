@@ -183,6 +183,7 @@ ul.sskills li {
   font-size: 1.4em;
   color: #fcd49d;
   list-style-image: url(../img/coin.png);
+  cursor: pointer;
 }
 p.technical-skills {
   position: absolute;
@@ -210,10 +211,21 @@ ul.tskills li {
   font-size: 1.4em;
   color: #fcd49d;
   list-style-image: url(../img/coin.png);
+  cursor: pointer;
+}
+ul.sskills li:before,
+ul.tskills li:before {
+  content: url(../img/coin.png);
+  margin-left: -20px;
+  display: inline-block;
+}
+ul.sskills li:hover:before,
+ul.tskills li:hover:before {
+  transform: rotate(360000deg);
+  transition: 300s; /* tune this */
 }
 .section-4 {
   position: relative;
-
   background-image: url(../img/sectiontwo.png);
   background-repeat: no-repeat;
   height: 535px;
@@ -249,7 +261,7 @@ ul.joppurtunities-2 li {
 ul.joppurtunities-1 li:hover,
 ul.joppurtunities-2 li:hover {
   border-radius: 5px;
-  background-color: rgb(15, 5, 15);
+  background-color: rgb(199, 8, 126);
   padding: 5px;
   cursor: pointer;
 }
